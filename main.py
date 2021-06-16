@@ -1,4 +1,5 @@
 import pandas as pd
+# If pandas is not installed: pip install pandas
 
 class Program:
     def __init__(self):
