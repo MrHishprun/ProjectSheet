@@ -5,7 +5,7 @@ import pandas as pd
 
 class Program:
     def __init__(self):
-         file = input("Insert file name (without extension): ")
+        file = input("Insert file name (without extension): ")
         self.namexlsx = "D:\\xlsx\\" + file + ".xlsx"
         self.namecsv = "D:\\csv\\" + file + ".csv"
         Program.export(self.namexlsx, self.namecsv)
